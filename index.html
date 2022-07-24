@@ -65,7 +65,7 @@
       <!-- hero -->
       <section class="hero center">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-button" type="button">Заказать услугу</button>
+        <button data-modal-open class="hero-button" type="button">Заказать услугу</button>
       </section>
 
       <!-- advantage -->
@@ -418,5 +418,17 @@
         </div>
       </div>
     </footer>
+    <!-- modal  -->
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button data-modal-close class="modal-close">
+          <svg width="11" height="11">
+            <use use href="./images/svg/vector.svg#icon-vector"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="modal.js"></script>
   </body>
 </html>
